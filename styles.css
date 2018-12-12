@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: aliceblue;
+    }
+
+    h1 {
+        display: none;
+    }
+}
+
+h1 {
+    color:  #33a2ff;
+}
+
+#taskTable {
+    background-color: aquamarine;
+    max-width: 500px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    //background-color:  #e3ff33;
+}
+
+#taskCounter {
+    font-size: 30px;
+    border-style: dotted;
+}
