@@ -1,21 +1,19 @@
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: aliceblue;
-    }
+@media (max-width: 400px) {
+    html { background: rgb(111, 199, 151); }
+  }
+  @media (min-width: 401px) and (max-width: 800px) {
+    html { background: rgb(78, 175, 143); }
+  }
+  @media (min-width: 801px) {
+    html { background: rgb(68, 173, 159); }
+  }
 
-    h1 {
-        display: none;
-    }
+#fullContent {
+    background-image: url("img/sea.jpg"); 
 }
 
 h1 {
     color:  #33a2ff;
-}
-
-#taskTable {
-    background-color: aquamarine;
-    max-width: 500px;
-    margin: auto;
 }
 
 body {

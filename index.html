@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html>
+
     <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
         <title>The Bucket List List</title>
     </head>
+
     <body>
+        <div id="fullContent" class="container">
         <h1>The Bucket List List</h1>
 
         <div id="taskInput">
             <form action="/index.html">
             <input type="text">
-            <input type="submit" value="Add"><br>
+            <input type="submit" value="Add">
             </form>
         </div>
         
             <p id="taskCounter">Things to do: 2</p>
+    
+        <div class="container">
 
-    <table id="taskTable">
-        
-            <tr>
-            <td>First task</td>
-        <div class="buttons">
-            <td><input type="submit" value="Done"></td>
-            <td><input type="submit" value="Delete"></td>
+            <div class="row">
+                <div class="col-sm-8">
+                    First Task
+                </div>
+                <div class="col-sm-2 buttons">
+                    <input type="submit" value="Done">
+                </div>  
+                <div class="col-sm-2 buttons">
+                    <input type="submit" value="Delete">                    
+                </div>
+                </div>
+
+                <div class="row">
+                        <div class="col-sm-8">
+                            Second Task
+                        </div>
+                        <div class="col-sm-2 buttons">
+                                <input type="submit" value="Done">
+                        </div>  
+                        <div class="col-sm-2 buttons">
+                            <input type="submit" value="Delete">                    
+                        </div>
+                </div>
+            </div>
         </div>
-        </tr>
-
-        <tr>
-        <td>Second task</td>
-        <div class="buttons">
-            <td><input type="submit" value="Done"></td>
-            <td><input type="submit" value="Delete"></td>
-        </div>
-        </tr>
-        
-    </table>
-
     </body>
 </html>
