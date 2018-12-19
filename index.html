@@ -12,14 +12,20 @@
         <div id="fullContent" class="container">
         <h1>The Bucket List List</h1>
 
-        <div id="taskInput">
-            <form action="/index.html">
-            <input type="text">
-            <input type="submit" value="Add">
-            </form>
-        </div>
+        <form>
+            <div class="form-row">
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="I really want to...">
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-info">Add</button>   
+                </div>
+            </div>
+        </form>
         
-            <p id="taskCounter">Things to do: 2</p>
+        <button type="button" class="btn btn-dark">
+            Things to do <span class="badge badge-secondary">2</span>
+        </button>
     
         <div class="container">
 
@@ -28,10 +34,10 @@
                     First Task
                 </div>
                 <div class="col-sm-2 buttons">
-                    <input type="submit" value="Done">
+                    <button type="button" class="btn btn-success">Done</button>
                 </div>  
                 <div class="col-sm-2 buttons">
-                    <input type="submit" value="Delete">                    
+                    <button type="button" class="btn btn-danger">Delete</button>                    
                 </div>
                 </div>
 
@@ -40,10 +46,10 @@
                             Second Task
                         </div>
                         <div class="col-sm-2 buttons">
-                                <input type="submit" value="Done">
+                            <button type="button" class="btn btn-success">Done</button>
                         </div>  
                         <div class="col-sm-2 buttons">
-                            <input type="submit" value="Delete">                    
+                            <button type="button" class="btn btn-danger">Delete</button>                   
                         </div>
                 </div>
             </div>

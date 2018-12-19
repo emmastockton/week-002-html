@@ -9,11 +9,12 @@
   }
 
 #fullContent {
-    background-image: url("img/sea.jpg"); 
+    background-image: url("sea.JPG"); 
+    background-size: cover; 
 }
 
 h1 {
-    color:  #33a2ff;
+    color:  #011a2e;
 }
 
 body {
@@ -24,7 +25,7 @@ body {
     //background-color:  #e3ff33;
 }
 
-#taskCounter {
+/*#taskCounter {
     font-size: 30px;
     border-style: dotted;
-}
+}/*
