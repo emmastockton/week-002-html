@@ -13,6 +13,11 @@
     background-size: cover; 
 }
 
+#taskText {
+    font-size: 25px;
+    font-weight: 500;
+}
+
 h1 {
     color:  #011a2e;
 }
@@ -24,8 +29,3 @@ body {
     text-align: center;
     //background-color:  #e3ff33;
 }
-
-/*#taskCounter {
-    font-size: 30px;
-    border-style: dotted;
-}/*
